@@ -929,7 +929,7 @@ h2.dt {
 #fh5co-header .display-tc h1,
 #fh5co-counter .display-tc h1,
 .fh5co-cover .display-tc h1 {
-  font-size: 50px;
+  font-size: 45px;
   margin: 0;
   padding: 0;
   line-height: 0.5;
@@ -957,9 +957,18 @@ h2.dt {
 }
 img.mn-bg {
   display: none;
+
+  /* margin-top: -590px; */
+  /* height: 200px; */
 }
 .animated span {
-  font-size: 45px;
+	font-size: 45px;
+	color: #00dee9 !important;
+	filter: drop-shadow(2px 4px 6px #12002c) !important;
+}
+.hil {
+	color: #e20025;
+	filter: drop-shadow(2px 2px 3px #fff);
 }
 .animated img {
   width: 76px;
@@ -975,7 +984,25 @@ img.mn-bg {
   margin: 0;
 }
 .fh5co-cover .overlay {
-  background: rgb(255 255 255 / 23%);
+	background: rgba(24, 11, 11, 0.39);
+}
+#fh5co-header .display-tc h2, #fh5co-counter .display-tc h2, .fh5co-cover .display-tc h2 {
+	font-size: 35px;
+	line-height: 39px;
+	filter: drop-shadow(2px 2px 3px #c7c7c7) !important;
+	color: #edff13 !important;
+}
+#fh5co-header .display-tc h1, #fh5co-counter .display-tc h1, .fh5co-cover .display-tc h1 {
+	font-size: 30px;
+	background: #002b40;
+	line-height: 45px;
+	text-align: left;
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	padding: 0 23px;
+	border-radius: 30px;
+	top: -1px;
 }
 }
 @media screen and (max-width: 480px) {
@@ -993,6 +1020,8 @@ img.mn-bg {
   filter: drop-shadow(2px 4px 6px #fff);
   color: #000d4b;
   margin-top: 15px;
+
+  
 }
 .flipTimebox {
   position: absolute;
